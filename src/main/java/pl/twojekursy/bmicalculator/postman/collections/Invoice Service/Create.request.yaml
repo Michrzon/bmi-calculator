@@ -1,0 +1,15 @@
+$kind: http-request
+url: 127.0.0.1:8082/api/invoices
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"buyer\": \"Company1\",\r
+
+    \    \"seller\": \"Michał\",\r
+
+    \    \"paymentDate\": \"2026-09-28\"\r
+
+    }"
+order: 2000

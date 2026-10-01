@@ -1,0 +1,4 @@
+$kind: http-request
+url: 127.0.0.1:8080/api/report/generate
+method: POST
+order: 1789934703581

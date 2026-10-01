@@ -1,0 +1,8 @@
+$kind: http-request
+name: New Request
+url: http://127.0.0.1:8080/api/circle
+method: POST
+body:
+  type: json
+  content: "{\r\n    \"radius\": 34\r\n}"
+order: 1199

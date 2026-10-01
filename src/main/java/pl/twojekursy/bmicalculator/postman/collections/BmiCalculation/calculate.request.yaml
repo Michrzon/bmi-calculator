@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://127.0.0.1:8080/api/bmi/calculate?w=84&h=180
+method: GET
+queryParams:
+  w: "84"
+  h: "180"
+order: 2000

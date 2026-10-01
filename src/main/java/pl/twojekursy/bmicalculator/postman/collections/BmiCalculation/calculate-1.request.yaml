@@ -1,0 +1,14 @@
+$kind: http-request
+name: calculate
+url: http://127.0.0.1:8080/api/bmi/calculate
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"weight\": 84,\r
+
+    \    \"height\": 180\r
+
+    }"
+order: 1770

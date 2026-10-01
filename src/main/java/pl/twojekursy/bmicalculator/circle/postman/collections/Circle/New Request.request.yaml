@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://127.0.0.1:8080/api/circle?r=120
+method: GET
+queryParams:
+  r: "120"
+order: 2000
